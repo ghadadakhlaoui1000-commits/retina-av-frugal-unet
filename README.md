@@ -1,5 +1,6 @@
 # Segmentation artères / veines de la rétine par U-Net 2D : modèles légers et mesure carbone
 
+![Dice vs paramètres et CO2](fig_frugal.png)
 **Ghada Dakhlaoui** – Génie biomédical, INTeK (Tunisie) · PyTorch · Kaggle (GPU Tesla T4)
 
 Projet personnel de segmentation multi-classes des vaisseaux rétiniens (fond, artère, veine) sur photos couleur du fond d'œil. Il compare quatre tailles de U-Net avec un protocole identique, mesure l'empreinte carbone de chaque entraînement et calcule des biomarqueurs vasculaires simplifiés à partir des masques prédits.
