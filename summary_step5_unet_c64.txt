@@ -1,0 +1,11 @@
+============================================================
+RÉSUMÉ ÉTAPE 5 – biomarqueurs (unet_c64, 31 images de test)
+============================================================
+                       n  moy_ref  moy_pred  r_pearson  erreur_abs_moy  biais_pred_moins_ref  erreur_relative_%
+biomarqueur                                                                                                    
+densite_vasculaire_%  31    9.604    10.322      0.962           0.754                 0.718              7.856
+dim_fractale          31    1.519     1.526      0.974           0.009                 0.007              0.594
+calibre_artere_px     31    5.143     5.506      0.856           0.454                 0.362              8.829
+calibre_veine_px      31    5.728     6.213      0.903           0.510                 0.485              8.909
+ratio_A_V_calibre     31    0.901     0.893      0.728           0.042                -0.009              4.701
+Rappel : versions simplifiées ; calibre en pixels (image 1024x1024) ; pas de CRAE/CRVE/AVR standard.

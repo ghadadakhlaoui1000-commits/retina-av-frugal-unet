@@ -1,0 +1,11 @@
+============================================================
+RÉSUMÉ ÉTAPE 2 (à copier-coller dans la conversation)
+============================================================
+Images en cache : 206 de taille 1024x1024
+Séparation par image : {'train': 144, 'val': 31, 'test': 31} (graine 42)
+Patches : 256x256, 1152 par époque, batch 8, p_vessel=0.7
+Vitesse : 74 patches/s (1 processus)
+Fréquences images entières (fond/artère/veine, %) : [93.48, 3.01, 3.51] ; ignoré 0.31 %
+Fréquences patches tirés (fond/artère/veine, %)    : [89.76, 4.68, 5.56] ; ignoré 0.52 %
+Poids de classe suggérés : [0.256, 1.424, 1.32]
+Fichiers : split.json, pipeline.py, pipeline_config.json, fig_patches.png, cache/

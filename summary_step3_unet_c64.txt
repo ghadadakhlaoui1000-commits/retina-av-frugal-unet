@@ -1,0 +1,10 @@
+============================================================
+RÉSUMÉ ÉTAPE 3 – unet_c64 (à copier-coller dans la conversation)
+============================================================
+GPU : Tesla T4 | paramètres : 31.04 M | époques : 60
+Temps d'entraînement : 37.8 min | inférence : 147 ms / image 1024x1024
+Émissions CodeCarbon : 17.44 gCO2eq, 0.0606 kWh
+Meilleur Dice val (moyenne artère/veine) : 0.771 à l'époque 60 | lots défectueux ignorés : 0
+TEST (agrégé)  Dice artère 0.764 | veine 0.785 | vaisseau 0.856 | fond 0.989
+TEST (par image) artère 0.760 ± 0.125 | veine 0.788 ± 0.121 | vaisseau 0.857 ± 0.120
+Fichiers : models/unet_c64.pt, results_unet_c64.json, history_unet_c64.csv, pred_test_unet_c64.npy, figures
