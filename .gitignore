@@ -1,0 +1,11 @@
+# Données et caches (volumineux, licence propre au jeu de données Rotterdam RAV)
+data/
+cache/
+*.npy
+# Poids lourds : ne garder que unet_c32.pt si souhaité
+models/*.pt
+!models/unet_c32.pt
+# Divers
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
